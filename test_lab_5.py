@@ -9,5 +9,4 @@ class MyTest(unittest.TestCase):
         self.assertEqual(naive_search("AAAAAAAAAAAAAAAAAB", "AAAB"), [(14,18)])
         self.assertEqual(naive_search("Some books are to be tasted, others to be swallowed, and some few to be chewed and digested.", 'to'), [(15,17), (36, 38), (66,68)])
 
-
 unittest.main()
